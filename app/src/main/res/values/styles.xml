@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+        <item name="actionOverflowButtonStyle">@style/actionOverflowButtonStyle</item>
+    </style>
+
+    <style name="actionOverflowButtonStyle" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="tint">@color/Action_bar</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="titleTextStyle">@style/ActionBarTitleTextStyle</item>
+        <item name="background">@color/white</item>
+    </style>
+
+    <style name="ActionBarTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/color_login</item>
+    </style>
+
+    <style name="label_form" parent="@style/AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/color_login</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="input_form" parent="@style/AppTheme">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:backgroundTint">@color/tint_color</item>
+        <item name="android:ems">10</item>
+    </style>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/title_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textAlignment="textStart"
+                android:text="@string/living_room"
+                android:textColor="@color/color_login"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subtitle_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subtitle_form"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:textAlignment="textStart"/>
+
+            <ImageView
+                android:id="@+id/img_uno"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:onClick="ShowImagenToast"
+                app:srcCompat="@drawable/imagen1"/>
+            <ImageView
+                android:id="@+id/img_dos"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:onClick="ShowImagenToast"
+                app:srcCompat="@drawable/imagen2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical|right"
+                android:paddingTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp">
+                    <TextView
+                        android:id="@+id/label_precie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textStart"
+                        android:text="@string/_309"
+                        android:textColor="@color/color_login"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/label_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="3dp"
+                        android:textAlignment="textStart"
+                        android:text="@string/night"
+                        android:textStyle="bold"
+                        android:textColor="@color/label_day"
+                        android:textSize="14sp"
+                        android:layout_toRightOf="@id/label_precie"/>
+
+                    <ImageView
+                        android:id="@+id/img_valoracion"
+                        android:layout_width="9dp"
+                        android:layout_height="9dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginTop="3dp"
+                        android:layout_below="@id/label_precie"
+                        app:srcCompat="@drawable/start_valoracion"/>
+
+                    <TextView
+                        android:id="@+id/label_valoracion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/label_precie"
+                        android:layout_toRightOf="@id/img_valoracion"
+                        android:text="@string/_4_96"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/botom_menu"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/label_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_alignTop="@id/label_valoracion"
+                        android:layout_toRightOf="@id/label_valoracion"
+                        android:text="@string/_52"
+                        android:textStyle="bold"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/label_day"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/botom_menu"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:text="@string/request_to_book"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

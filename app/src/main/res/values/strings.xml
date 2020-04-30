@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Airbnb</string>
+    <string name="text_title_login">Log in to continue</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="log_in">Log in</string>
+    <string name="text_password">Password</string>
+    <string name="text_email">Email address</string>
+
+
+    <string name="text_title_form">Join the Airbnb community</string>
+    <string name="label_pass_description">Must include a symbol or number and have at least 8 characters</string>
+    <string name="label_description_birth">You need to be at least 18. Other people who use Airbnb won\'t see your birthday</string>
+    <string name="email_address">Email address</string>
+    <string name="firt_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="password">Password</string>
+    <string name="birthday">Birthday</string>
+    <string name="register">Register</string>
+    <string name="sign_description">or sign up with email</string>
+    <string name="living_room">Living room</string>
+    <string name="subtitle_form">Indoor fireplace, Smart TV, Netflix, Air conditioning</string>
+    <string name="request_to_book">Request to Book</string>
+    <string name="night">/ NIGHT</string>
+    <string name="_4_96">4.96</string>
+    <string name="_52">(52)</string>
+    <string name="_309">$309</string>
+    <string name="text_welcome">Welcome to Airbnb</string>
+</resources>
