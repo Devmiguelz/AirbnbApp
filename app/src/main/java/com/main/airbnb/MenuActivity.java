@@ -44,8 +44,15 @@ public class MenuActivity extends AppCompatActivity {
             case R.id.action_setting:
                 displayToast("Touch item setting");
                 return true;
+            case R.id.action_compartir:
+                displayToast("Touch item shared");
+                return true;
+            case R.id.action_megusta:
+                displayToast("Touch item like");
+                return true;
             default:
-                return super.onOptionsItemSelected(item);
+                displayToast("Not found");
+                return true;
         }
     }
 
