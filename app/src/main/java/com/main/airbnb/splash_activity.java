@@ -10,7 +10,7 @@ import android.view.WindowManager;
 
 public class splash_activity extends AppCompatActivity {
 
-    private final int DURACION = 3000;
+    private final int DURACION = 1000;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -18,9 +18,6 @@ public class splash_activity extends AppCompatActivity {
 
         // Ocultar el actionBar
         getSupportActionBar().hide();
-
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_splash_activity);
 
