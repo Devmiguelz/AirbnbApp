@@ -145,6 +145,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/white"
+                android:onClick="showDialog"
                 android:background="@color/colorPrimary"
                 android:text="@string/register" />
         </LinearLayout>

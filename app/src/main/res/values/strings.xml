@@ -25,4 +25,8 @@
     <string name="_52">(52)</string>
     <string name="_309">$309</string>
     <string name="text_welcome">Welcome to Airbnb</string>
+
+    <string name="text_dialog">Confirme su información</string>
+    <string name="text_ok_dialog">Registrado Exitosamente !</string>
+    <string name="text_info">Ingrese su información</string>
 </resources>
